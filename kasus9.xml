@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Belajar TextView Yuk!!"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:id="@+id/textview2"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview3"
+        android:text="Size-nya Kecilan dikit"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/texview4"
+        android:text="Text dengan warna hijau"
+        android:textColor="#4CAF50"
+        android:textSize="26sp"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview5"
+        android:text="Lebar Banget"
+        android:textColor="#FFF"
+        android:textSize="30sp"
+        android:background="#F44336"
+        android:textStyle="italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview6"
+        android:text="Ini adalah contoh sederhana dalam penggunaan widge view di android studio dibuat oleh"
+        android:textColor="#000"
+        android:textSize="24sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textview7"
+        android:text="emanggwpikirin.com"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40sp"
+        android:textAlignment="center"/>
+
+</LinearLayout>
